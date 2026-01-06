@@ -15,12 +15,12 @@ For example, a `Song` and a `MediaItem` have an inheritance relationship because
 
 ### Response 1
 
-1. Your response...
-2. Your response...
-3. Your response...
-4. Your response...
-5. Your response...
-6. Your response...
+1. A `car` and an `engine` have a composition relationship because a car can only have one engine.
+2. A `dog` and an `animal` is an inheritance relationship because a dog is a type of animal
+3. A `classroom` and a `student` is a composition relationship
+4. A `rectangle` is a type of `shape` making it an inheritance relationship
+5. A `computer` has a `cpu` making it a composition relationship
+6. A `manager` is a type of `employee` making it an inhertiance relationship
 
 ---
 
@@ -32,7 +32,7 @@ In your own words, explain what polymorphism means and why it is useful. Use the
 
 ### Response 2
 
-Your response...
+Polymorphism is when two different classes contain a method with the same name but have different functionality. This could be shown through `Song` and `Podcast` where the method `play()` would tell you the song that's playing with the artist and song name vs the method `play()` in the `Podcast` class that would show you the podcast name and the episode you're on.
 
 ---
 
@@ -46,6 +46,6 @@ b) Give an example of when you would want to use a static property or method ins
 
 ### Response 3
 
-a) Your response...
+a) The difference between an instance property and a static property is that a static property will be the same for every instance. It is used as a default value for every new instance created vs an instance property which saves unique data used for each individual instance.
 
-b) Your response...
+b) An example of when to use a static property would be when you want every instance to have the same thing, if you were making a bank system you would want a static empty array that holds every bank account in it if you have a class that manages bank accounts. For an instance property you would have the users names
